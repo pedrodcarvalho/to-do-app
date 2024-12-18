@@ -1,0 +1,7 @@
+.throw-away-animation {
+  transform: translateX(100%) rotate(20deg);
+  opacity: 0;
+  transition:
+    transform 0.6s ease-out,
+    opacity 0.6s ease-out;
+}

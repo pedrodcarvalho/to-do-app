@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  to-do-app:
+    build: .
+    ports:
+      - '8080:80'

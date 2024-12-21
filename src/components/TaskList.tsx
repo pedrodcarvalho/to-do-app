@@ -53,7 +53,7 @@ const TodosList: React.FC = () => {
         {todos.map((todo) => (
           <div
             key={todo.id}
-            className={`flex items-center justify-between p-6 mx-4 rounded-md shadow-md transition-transform duration-500 ease-out ${
+            className={`flex items-center justify-between p-6 mx-4 rounded-md shadow-md ${
               deleted === todo.id ? 'throw-away-animation' : ''
             } ${todo.completed ? 'bg-neutral-100' : 'bg-neutral-50'}`}
           >
